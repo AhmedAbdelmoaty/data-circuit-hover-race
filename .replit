@@ -1,0 +1,4 @@
+[nix]
+channel = "stable-24_11"
+
+run = "npm install && npm run dev -- -H 0.0.0.0 -p 3000"
