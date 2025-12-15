@@ -40,17 +40,14 @@ export default function HomePage() {
             </p>
           </div>
           <div className="flex gap-4">
-            <NeonButton asChild>
-              <Link href="/playground" className="gap-2">
-                <Play size={16} />
-                Enter Playground
-              </Link>
+            <NeonButton href="/playground" className="gap-2">
+              <Play size={16} />
+              Enter Playground
             </NeonButton>
-            <NeonButton variant="ghost" asChild>
-              <Link href="/race/1" className="gap-2">
-                <ArrowRight size={16} />
-                Preview Race
-              </Link>
+
+            <NeonButton href="/race/1" variant="ghost" className="gap-2">
+              <ArrowRight size={16} />
+              Preview Race
             </NeonButton>
           </div>
         </div>

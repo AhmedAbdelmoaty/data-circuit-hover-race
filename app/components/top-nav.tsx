@@ -40,8 +40,8 @@ export default function TopNav() {
               </Link>
             ))}
           </nav>
-          <NeonButton asChild>
-            <Link href="/playground">Style Playground</Link>
+          <NeonButton href="/playground">
+            Style Playground
           </NeonButton>
         </div>
       </div>
