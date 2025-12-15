@@ -3,7 +3,11 @@ channel = "stable-24_11"
 
 run = "npm install && npm run dev -- -H 0.0.0.0 -p 3000"
 
+[agent]
+expertMode = true
+
 [workflows]
+runButton = "Dev"
 
 [[workflows.workflow]]
 name = "Dev"
@@ -17,6 +21,3 @@ args = "npm install && npm run dev -- -H 0.0.0.0 -p 3000"
 [[ports]]
 localPort = 3000
 externalPort = 80
-
-[agent]
-expertMode = true

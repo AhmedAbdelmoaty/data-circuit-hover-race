@@ -1,4 +1,4 @@
-import PlaygroundClient from "@/components/playground/PlaygroundClient";
+import PlaygroundClient from './PlaygroundClient';
 
 export default function PlaygroundPage() {
   return <PlaygroundClient />;
